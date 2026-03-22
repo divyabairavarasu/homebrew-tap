@@ -1,26 +1,26 @@
 class Zencoder < Formula
   desc "AI coding assistant — local-first, multi-provider, auto-routing"
   homepage "https://github.com/divyabairavarasu/zencoder-releases"
-  version "12.1.0"
+  version "13.1.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/divyabairavarasu/zencoder-releases/releases/download/v12.1.0/zencoder_#{version}_darwin_arm64.tar.gz"
-      sha256 "aa36f38c4c08a5237093efb3c6e9a613def74a43dea730bce2677ac4088138c1"
+      url "https://github.com/divyabairavarasu/zencoder-releases/releases/download/v13.1.0/zencoder_#{version}_darwin_arm64.tar.gz"
+      sha256 "1fe054188917107b4d141f21bfa655538d0987fe72b7d215eff0d245cf37d457"
     else
-      url "https://github.com/divyabairavarasu/zencoder-releases/releases/download/v12.1.0/zencoder_#{version}_darwin_amd64.tar.gz"
-      sha256 "3ea8fe3f76c7eba0d7b2a55b187d859938569581fdca9391c2c5d5156b40c4cf"
+      url "https://github.com/divyabairavarasu/zencoder-releases/releases/download/v13.1.0/zencoder_#{version}_darwin_amd64.tar.gz"
+      sha256 "8d2b500114bc8f33e3d6135b112e0f5036dfc5b672059c2de24de2c2246b6ff3"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/divyabairavarasu/zencoder-releases/releases/download/v12.1.0/zencoder_#{version}_linux_arm64.tar.gz"
-      sha256 "106c6dd779a47228b4f1a6ba47504ad37cd29cb7171b71c2378817f85fc7dd3b"
+      url "https://github.com/divyabairavarasu/zencoder-releases/releases/download/v13.1.0/zencoder_#{version}_linux_arm64.tar.gz"
+      sha256 "5b7ef67a91cdb80a12fdaccb3f78a3007e6e386d44001e9f84c2cbd41cde509b"
     else
-      url "https://github.com/divyabairavarasu/zencoder-releases/releases/download/v12.1.0/zencoder_#{version}_linux_amd64.tar.gz"
-      sha256 "af7006cc788c07c57342152e19fd043edcc65fd958de3b735f2f51bce77796a5"
+      url "https://github.com/divyabairavarasu/zencoder-releases/releases/download/v13.1.0/zencoder_#{version}_linux_amd64.tar.gz"
+      sha256 "423668f55bbee397e68005f28c3c82b11dc5a29ed77580e914284ed9f64eef1c"
     end
   end
 
