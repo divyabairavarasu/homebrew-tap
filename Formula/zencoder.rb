@@ -1,26 +1,26 @@
 class Zencoder < Formula
   desc "AI coding assistant — local-first, multi-provider, auto-routing"
   homepage "https://github.com/divyabairavarasu/zencoder-releases"
-  version "10.0.0"
+  version "11.0.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/divyabairavarasu/zencoder-releases/releases/download/v10.0.0/zencoder_#{version}_darwin_arm64.tar.gz"
-      sha256 "91f09cd765b1e80638177a51a8c7cd97960076c5c46adbf361c59efc139d0f1d"
+      url "https://github.com/divyabairavarasu/zencoder-releases/releases/download/v11.0.0/zencoder_#{version}_darwin_arm64.tar.gz"
+      sha256 "49451f2da33fa804415b2f149250f0984be160371bce30b5950a6c575fd093a6"
     else
-      url "https://github.com/divyabairavarasu/zencoder-releases/releases/download/v10.0.0/zencoder_#{version}_darwin_amd64.tar.gz"
-      sha256 "22c7c2fa07d70f5d20d783fc169973bae27ec7ce2f1ef52144a1e9df8b2dcc09"
+      url "https://github.com/divyabairavarasu/zencoder-releases/releases/download/v11.0.0/zencoder_#{version}_darwin_amd64.tar.gz"
+      sha256 "c320c8e3b8cf974411c6b7048f1ee13ba8d0725d2f048a7ec2e8c799d66d100c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/divyabairavarasu/zencoder-releases/releases/download/v10.0.0/zencoder_#{version}_linux_arm64.tar.gz"
-      sha256 "05b25a783d27a561fbf64b6ae56e7132a5b6807fef4f31b00620432b4cc73cbe"
+      url "https://github.com/divyabairavarasu/zencoder-releases/releases/download/v11.0.0/zencoder_#{version}_linux_arm64.tar.gz"
+      sha256 "e2289fe246bb665ed050aaade8f0d6394d9c1de942dc93881a7d47cbfed87508"
     else
-      url "https://github.com/divyabairavarasu/zencoder-releases/releases/download/v10.0.0/zencoder_#{version}_linux_amd64.tar.gz"
-      sha256 "96f7901152e2f7a980496c1177ad48cc6c835440385c0ddbd519e65395ab607b"
+      url "https://github.com/divyabairavarasu/zencoder-releases/releases/download/v11.0.0/zencoder_#{version}_linux_amd64.tar.gz"
+      sha256 "ce903a0a4209b030303ac068eb1d7e4f76e79db48d8a0d4479ed4f3eac1ce4af"
     end
   end
 
