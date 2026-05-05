@@ -1,26 +1,26 @@
 class Zencoder < Formula
   desc "AI coding assistant — local-first, multi-provider, auto-routing"
   homepage "https://github.com/divyabairavarasu/zencoder-releases"
-  version "16.0.0"
+  version "16.1.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/divyabairavarasu/zencoder-releases/releases/download/v16.0.0/zencoder_#{version}_darwin_arm64.tar.gz"
-      sha256 "a079544c2092e79119e7625bad0201efbf241511bc779487d1b1dd418089df5e"
+      url "https://github.com/divyabairavarasu/zencoder-releases/releases/download/v16.1.0/zencoder_#{version}_darwin_arm64.tar.gz"
+      sha256 "9fa2862d4d14409a7460496ec43b10805f3c896281b6649eb4817c7244721ea1"
     else
-      url "https://github.com/divyabairavarasu/zencoder-releases/releases/download/v16.0.0/zencoder_#{version}_darwin_amd64.tar.gz"
-      sha256 "d2330ec5a056d2334c7fcf7d0d75f424b50659fe3eaabc2126a8cedc22425206"
+      url "https://github.com/divyabairavarasu/zencoder-releases/releases/download/v16.1.0/zencoder_#{version}_darwin_amd64.tar.gz"
+      sha256 "dc5c11c4fdb48602fc1dc086c4c66f28e15a498e65e841454e14dfb7aac2368b"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/divyabairavarasu/zencoder-releases/releases/download/v16.0.0/zencoder_#{version}_linux_arm64.tar.gz"
-      sha256 "9a5ef04c9802f4b530da412e0eac4b2229ebc9bbc6aea19220b573cafd72ae5a"
+      url "https://github.com/divyabairavarasu/zencoder-releases/releases/download/v16.1.0/zencoder_#{version}_linux_arm64.tar.gz"
+      sha256 "b4eb0d4ac45c69544764514b9b355b3d70e3cc9ca9ea3c4053b9111ea628b1a2"
     else
-      url "https://github.com/divyabairavarasu/zencoder-releases/releases/download/v16.0.0/zencoder_#{version}_linux_amd64.tar.gz"
-      sha256 "27003955cdfe01d2d7ec6235807a5671eb056b77e2aef6d6d0299a68d863ddd9"
+      url "https://github.com/divyabairavarasu/zencoder-releases/releases/download/v16.1.0/zencoder_#{version}_linux_amd64.tar.gz"
+      sha256 "df605c7710b02f0b4cf4c31ac14d870fafa613e174d754ea2ffecbe102e0b128"
     end
   end
 
